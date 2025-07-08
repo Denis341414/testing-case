@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Gropled";
+  font-style: bold;
+  font-weight: 700;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Gropled"),
+    /* Если не получилось, загрузит woff2 */
+      url("./fonts/Gropled/Gropled-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Tilda Sans VF";
+  font-style: regular;
+  font-weight: 400;
+  /* Браузер сначала попробует найти шрифт локально */
+  src: local("Tilda Sans VF"),
+    /* Если не получилось, загрузит woff2 */
+      url("./fonts/TildaSans-VF_TTF_Web/TildaSans-VF.woff") format("woff"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+      url("./fonts/TildaSans-VF_TTF_Web/TildaSans-VF.woff2") format("woff2"),
+    url("./fonts/TildaSans-VF_TTF_Web/TildaSans-VF.ttf") format("ttf");
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f6f6;
+}
