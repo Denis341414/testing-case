@@ -37,6 +37,7 @@ onMounted(() => {
   align-items: center;
   padding: 24px;
   height: 68px;
+  margin-bottom: 8px;
   width: 100%;
   background: #ffffff;
   border-radius: 24px;
