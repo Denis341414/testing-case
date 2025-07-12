@@ -74,7 +74,7 @@ onMounted(() => {
 .main {
   position: relative;
   width: 100%;
-  height: 50vh;
+  height: 560px;
   z-index: 0;
   font-family: "Tektur", sans-serif;
 
