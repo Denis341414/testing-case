@@ -1,4 +1,5 @@
 <script setup>
+import Form from "./components/Forn/ui/Form.vue";
 import Header from "./components/Header/ui/Header.vue";
 import Main from "./components/Main/ui/Main.vue";
 import Slider from "./components/Slider/ui/Slider.vue";
@@ -9,6 +10,7 @@ import Slider from "./components/Slider/ui/Slider.vue";
     <Header />
     <Main />
     <Slider />
+    <Form />
   </div>
 </template>
 
