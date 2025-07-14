@@ -45,7 +45,7 @@
   display: flex;
   gap: 8px;
   width: 100%;
-  height: 60vh;
+  height: max-content;
   @media (max-width: 650px) {
     flex-direction: column;
   }
@@ -144,13 +144,15 @@
 
   .block-right {
     width: 50%;
+    min-height: max-content;
+
     @media (max-width: 650px) {
       width: 100%;
     }
 
     .map {
       width: 100%;
-      height: 60vh;
+      min-height: 100%;
       @media (max-width: 650px) {
         height: 30vh;
       }

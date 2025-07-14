@@ -1,5 +1,6 @@
 <script setup>
 import Contacts from "./components/Contacts/ui/Contacts.vue";
+import Footer from "./components/Footer/ui/Footer.vue";
 import Form from "./components/Forn/ui/Form.vue";
 import Header from "./components/Header/ui/Header.vue";
 import Main from "./components/Main/ui/Main.vue";
@@ -13,6 +14,7 @@ import Slider from "./components/Slider/ui/Slider.vue";
     <Slider />
     <Form />
     <Contacts />
+    <Footer />
   </div>
 </template>
 
