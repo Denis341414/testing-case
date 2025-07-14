@@ -62,6 +62,7 @@
     gap: 1em;
     flex-direction: column;
     height: max-content;
+    padding: 24px;
   }
 
   .block-text {
@@ -113,6 +114,9 @@
       @media (max-width: 650px) {
         gap: 0.5em;
         flex-direction: row;
+      }
+      @media (max-width: 340px) {
+        flex-direction: column;
       }
 
       .input {
